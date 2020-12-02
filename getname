@@ -1,0 +1,9 @@
+def main():
+    name = getname()
+    print("Hello", name)
+
+def getname():
+    name = input("Enter name ")
+    return name
+
+main()
